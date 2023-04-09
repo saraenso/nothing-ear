@@ -1,0 +1,10 @@
+header {
+    padding-top: 44px;
+    padding-bottom: 30px;
+}
+
+.nav {
+    display: flex;
+    gap: 43px;
+    justify-content: center;
+}
