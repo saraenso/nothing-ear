@@ -16,43 +16,93 @@
   </head>
   <body>
     <header>
-      <nav class="container">
-        <ul class="nav">
-          <li class="nav__item">
-            <a href="" class="nav__link">Модели</a>
-          </li>
-          <li class="nav__item">
-            <a href="" class="nav__link">Функции</a>
-          </li>
-          <li class="nav__item">
-            <a href="" class="nav__link">Тренировки</a>
-          </li>
-          <li class="nav__item">
-            <a href="" class="nav__link">Социальные сети</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="nav">
+          <a class="nav__link" href="#models">Модели</a>
+          <a class="nav__link" href="#functions">Функции</a>
+          <a class="nav__link" href="#workouts">Тренировки</a>
+          <a class="nav__link" href="#social-media">Социальные сети</a>
+        </nav>
+      </div>
     </header>
     <main>
-      <!--  
-      <section class="section-intro">
+      <section class="section-product-intro">
         <div class="container">
-          <h1>Nothing Ear</h1>
-          <div class="intro__dsc-wrapper">
-            <h3 class="intro__dsc">
+          <h1 class="section-product-intro__title">Nothing Ear</h1>
+
+          <div class="section-product-intro__subtitle-wrapper">
+            <h3 class="section-product-intro__subtitle">
               Беспроводные наушники-вкладыши с активным шумоподавлением, которые
               подарят чистейший звук
             </h3>
           </div>
-          <img
-            src="resources/earbuds.png"
-            alt="Чёрные наушники Nothing Ear"
-            class="intro__img"
-          />
+
+          <div class="section-product-intro__image-wrapper">
+            <img
+              class="section-product-intro__image"
+              src="resources/earbuds.png"
+              alt="Чёрные наушники Nothing Ear"
+            />
+          </div>
         </div>
       </section>
--->
-<!-- 
+
+      <section class="section-catalog">
+        <div class="container">
+          <div class="catalog">
+            <ul class="catalog__list">
+              <li class="catalog__item_white">
+                <div class="catalog__item-title-wrapper">
+                  <p class="catalog__item-title">Наушники Ear White</p>
+                </div>
+                <div
+                  class="catalog__item-link-wrapper catalog__item-link-wrapper_white"
+                >
+                  <a class="catalog__item-link" href="">Купить</a>
+                </div>
+              </li>
+              <li class="catalog__item_black">
+                <div class="catalog__item-title-wrapper">
+                  <p class="catalog__item-title">Наушники Ear Black</p>
+                </div>
+                <div
+                  class="catalog__item-link-wrapper catalog__item-link-wrapper_black"
+                >
+                  <a class="catalog__item-link" href="">Купить</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-smartphone">
+        <div class="container">
+          <div class="smartphone-info">
+            <ul class="smartphone-info__list">
+              <li class="smartphone-info__item smartphone-info__item_narrow">
+                <div class="smartphone-info__desc-wrapper">
+                  <p class="smartphone-info__desc">
+                    Ни что не отвлекает. Просто чистый инстинкт, сформированный
+                    как машина
+                  </p>
+                </div>
+              </li>
+              <li class="smartphone-info__item smartphone-info__item_wide">
+                <div class="smartphone-info__title-wrapper">
+                  <p class="smartphone-info__title">
+                    Телефон
+                    <br> 
+                    Nothing
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--  
       <section class="section-catalogue">
         <div class="container">
           <ul class="catalogue">
@@ -74,7 +124,7 @@
             </li>
           </ul>
           <ul class="catalogue-tel">
-            <li class="catalogue-tel__item">
+            <li class="catalogue-tel__item catalogue-tel__item-adaptive">
               <div class="catalogue-tel__dsc-wrapper">
                 <p class="catalogue-tel__dsc">
                   Ни что не отвлекает. Просто чистый инстинкт, сформированный как
@@ -82,15 +132,18 @@
                 </p>
               </div>
             </li>
-            <li class="catalogue-tel__item catalogue-tel__item_img">
-              <div class="catalogue-tel__item-tel-dsc-wrapper">
-                <p class="catalogue-tel__item-tel-dsc">Телефон Nothing</p>
+            <li class="catalogue-tel__items">
+              <div class=" catalogue-tel__item_img">
+                <div class="catalogue-tel__item-tel-dsc-wrapper">
+                  <p class="catalogue-tel__item-tel-dsc">Телефон Nothing</p>
+                </div>
               </div>
             </li>
+            
           </ul>
         </div>
       </section>
-      -->
-    </main>
+    --></main>
+    <script src="js/burger.js"></script>
   </body>
 </html>

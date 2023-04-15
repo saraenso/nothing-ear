@@ -1,0 +1,63 @@
+.smartphone-info {
+    margin-bottom: 150px;
+}
+
+.smartphone-info__list {
+    display: flex;
+    gap: 25px;
+}
+
+.smartphone-info__item {
+    height: 644px;
+}
+
+.smartphone-info__item_narrow {
+    max-width: 555px;
+}
+
+.smartphone-info__item_wide {
+    position: relative;
+    width: 570px;
+    background-image: url('../resources/nothing-phone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.smartphone-info__desc-wrapper {
+    display: flex;
+    align-items: flex-end;
+    height: 644px;
+}
+
+.smartphone-info__desc {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 93.52%;
+    letter-spacing: -0.05em;
+}
+
+.smartphone-info__title-wrapper {
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+
+.smartphone-info__title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 93.52%;
+    letter-spacing: -0.05em;
+}
+
+.smartphone-info__title-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 407px;
+    width: 180px;
+    height: 142px;
+    background-image: url('../resources/nothing-phone-user.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}

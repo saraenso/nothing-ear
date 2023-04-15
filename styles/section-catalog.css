@@ -1,0 +1,87 @@
+.catalog__list {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-bottom: 80px;
+}
+
+.catalog__item_white {
+    position: relative;
+    width: 100%;
+    height: 644px;
+    background-image: url('../resources/ear-white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.catalog__item_black {
+    position: relative;
+    width: 100%;
+    height: 644px;
+    background-image: url('../resources/ear-black.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.catalog__item-title-wrapper {
+    position: absolute;
+    max-width: 375px;
+    top: 50px;
+    left: 50px;
+}
+
+.catalog__item-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 93.52%;
+}
+
+.catalog__item-link-wrapper {
+    position: absolute;
+    bottom: 51px;
+    left: 50px;
+}
+
+.catalog__item-link {
+    display: block;
+    width: 420px;
+    font-size: 25px;
+    line-height: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    color: #FFFFFF;
+}
+
+.catalog__item-link:hover {
+    color: #2D2D2D;
+    background-color: #FFFFFF;
+}
+
+.catalog__item-link-wrapper_white::before {
+    content: '';
+    position: absolute;
+    bottom: 140px;
+    width: 141px;
+    height: 142px;
+    background-image: url('../resources/ear-white-up.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.catalog__item-link-wrapper_black::before {
+    content: '';
+    position: absolute;
+    bottom: 140px;
+    width: 141px;
+    height: 142px;
+    background-image: url('../resources/ear-black-up.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
