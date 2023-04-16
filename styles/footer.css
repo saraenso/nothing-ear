@@ -1,0 +1,15 @@
+.footer-nav {
+    margin-bottom: 74px;
+}
+
+.footer__decoration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FF25C2;
+}

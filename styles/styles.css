@@ -6,6 +6,8 @@
 @import url('../styles/section-workouts.css');
 @import url('../styles/section-clear-voice.css');
 @import url('../styles/section-gallery.css');
+@import url('../styles/section-social-media.css');
+@import url('../styles/footer.css');
 
 body {
     margin: 0 auto;
