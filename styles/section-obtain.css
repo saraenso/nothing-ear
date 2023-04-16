@@ -1,0 +1,32 @@
+.section-obtain {
+    padding-top: 190px;
+    padding-bottom: 190px;
+    height: 786px;
+    background-image: url('../resources/obtain-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.section-obtain__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 39px;
+}
+
+.section-obtain__item {
+    max-width: 671px;
+}
+
+.section-obtain__title {
+    max-width: 560px;
+    color: #FF25C2;
+}
+
+.section-obtain__desc {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}

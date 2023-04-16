@@ -2,6 +2,10 @@
 @import url('../styles/section-product-intro.css');
 @import url('../styles/section-catalog.css');
 @import url('../styles/section-smartphone.css');
+@import url('../styles/section-obtain.css');
+@import url('../styles/section-workouts.css');
+@import url('../styles/section-clear-voice.css');
+@import url('../styles/section-gallery.css');
 
 body {
     margin: 0 auto;
@@ -28,6 +32,15 @@ h1 {
     line-height: 133px;
     letter-spacing: -0.07em;
     color: #FF25C2;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 73.5px;
+    letter-spacing: -0.06em;
 }
 
 h3 {

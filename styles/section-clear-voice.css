@@ -1,0 +1,46 @@
+.section-clear-voice {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    height: 1040px;
+    background-image: url('../resources/clear-voice-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.section-clear-voice__title {
+    margin-bottom: 40px;
+}
+
+.section-clear-voice__desc-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.section-clear-voice__desc {
+    margin-bottom: 60px;
+    max-width: 942px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 90%;
+    text-align: center;
+    letter-spacing: -0.06em;
+}
+
+.section-clear-voice__link-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.section-clear-voice__link {
+    display: block;
+    width: 866px;
+    font-size: 25px;
+    line-height: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    color: #FFFFFF;
+}
