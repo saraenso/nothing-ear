@@ -5,6 +5,7 @@
 .footer__decoration {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 54px;
 }
 
 .footer__text {

@@ -19,9 +19,10 @@
     position: relative;
     width: 570px;
     background-image: url('../resources/nothing-phone.png');
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
+    object-fit: cover;
+    border-radius: 30px;
 }
 
 .smartphone-info__desc-wrapper {
