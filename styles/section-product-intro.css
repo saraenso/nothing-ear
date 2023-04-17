@@ -1,4 +1,5 @@
 .section-product-intro__title {
+    height: 156px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -30,6 +31,10 @@
     }
 }
 @media (max-width: 767px) { 
+    .section-product-intro__title {
+        height: 76px;
+    }
+
     .section-product-intro__subtitle {
         max-width: 299px;
     }
