@@ -23,6 +23,7 @@
     background-position: 50%;
     object-fit: cover;
     border-radius: 30px;
+    border: 1px solid #FFFFFF;
 }
 
 .smartphone-info__desc-wrapper {
