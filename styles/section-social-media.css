@@ -28,11 +28,12 @@
 
 @media (max-width: 767px) {
     .social-media__list {
+        gap: 0px;
         margin-bottom: 65px;
     }
     
     .social-media__item {
-        width: 100px;
+        width: 100%;
     }
     
     .social-media__link {
