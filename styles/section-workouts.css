@@ -93,11 +93,7 @@
     }
     
     .section-workouts__item {
-        max-width: 413px;
-    }
-
-    .section-workouts__title {
-        word-break: break-all;
+        max-width: 400px;
     }
 
     .section-workouts__subtitle {
@@ -118,6 +114,10 @@
 }
 
 @media (max-width: 300px) {
+    .section-workouts__title {
+        word-break: break-all;
+    }
+    
     .section-workouts__item-net::before {
         bottom: 110px;
     }

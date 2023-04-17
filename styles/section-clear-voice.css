@@ -53,6 +53,11 @@
     color: #FFFFFF;
 }
 
+.section-clear-voice__link:hover {
+    color: #2D2D2D;
+    background-color: #FFFFFF;
+}
+
 @media (max-width: 1199px) {
     .section-clear-voice {
         padding-top: 150px;

@@ -9,6 +9,10 @@
 @import url('../styles/section-social-media.css');
 @import url('../styles/footer.css');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
