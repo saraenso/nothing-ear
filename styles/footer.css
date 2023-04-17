@@ -14,3 +14,39 @@
     line-height: 42px;
     color: #FF25C2;
 }
+
+@media (max-width: 1199px) {
+    .footer-nav {
+        margin-bottom: 46px;
+    }
+
+    .footer__decoration {
+        margin-bottom: 23px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-nav {
+        margin-bottom: 37px;
+    }
+
+    .footer-nav-list { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }
+    
+    .footer__decoration {
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 52px;
+    }
+    
+    .footer__text {
+        font-size: 22px;
+        line-height: 27px;
+    }
+}

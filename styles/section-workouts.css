@@ -7,6 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 154px;
 }
 
@@ -79,4 +80,53 @@
     background-size: 25%;
     border-radius: 100px;
     background-color: #FF25C2;
+}
+
+@media (max-width: 767px) {
+    .section-workouts {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .section-workouts__list {
+        gap: 124px;
+    }
+    
+    .section-workouts__item {
+        max-width: 413px;
+    }
+
+    .section-workouts__title {
+        word-break: break-all;
+    }
+
+    .section-workouts__subtitle {
+        max-width: 319px;
+    }
+    
+    .section-workouts__item-net::before {
+        bottom: 96px;
+    }
+    
+    .section-workouts__item-pause::before {
+        bottom: 96px;
+    }
+    
+    .section-workouts__item-power::before {
+        bottom: 77px;
+    }
+}
+
+@media (max-width: 300px) {
+    .section-workouts__item-net::before {
+        bottom: 110px;
+    }
+    
+    .section-workouts__item-pause::before {
+        bottom: 125px;
+    }
+    
+    .section-workouts__item-power::before {
+        bottom: 90px;
+    }
 }

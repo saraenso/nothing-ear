@@ -62,3 +62,53 @@
     background-repeat: no-repeat;
     background-position: 50%;
 }
+
+@media (max-width: 1199px) {
+    .smartphone-info__list {
+        display: block;
+    } 
+    .smartphone-info {
+        width: 100%;
+    }
+    .smartphone-info__item {
+        height: unset;
+    }
+    
+    .smartphone-info__item_narrow {
+        max-width: 831px;
+        margin-bottom: 60px;
+    }
+    
+    .smartphone-info__item_wide {
+        display: block;
+        height: 644px;
+        margin-left: auto;
+        max-width: 695px;
+    }
+
+    .smartphone-info__desc-wrapper {
+        height: unset;
+    }
+}
+
+@media (max-width: 767px) {
+    .smartphone-info {
+        margin-bottom: 100px;
+    }
+    
+    .smartphone-info__item_narrow {
+        width: 100%;
+    }
+    
+    .smartphone-info__item_wide {
+        margin: 0 auto;
+        width: 100%;
+        background-position: 40%;
+    }
+    
+    .smartphone-info__desc {
+        width: 100%;
+        font-size: 45px;
+        word-wrap: break-word;
+    }
+}

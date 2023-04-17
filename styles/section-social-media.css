@@ -19,3 +19,23 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+
+@media (max-width: 1199px) {
+    .social-media__list {
+        margin-bottom: 178px;
+    }
+}
+
+@media (max-width: 767px) {
+    .social-media__list {
+        margin-bottom: 65px;
+    }
+    
+    .social-media__item {
+        width: 100px;
+    }
+    
+    .social-media__link {
+        font-size: 25px;
+    }
+}

@@ -10,8 +10,9 @@
 
 .section-obtain__list{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 39px;
 }
 
@@ -29,4 +30,32 @@
     font-size: 25px;
     line-height: 30px;
     text-align: center;
+}
+
+@media (max-width: 767px) {
+    .section-obtain {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        height: 559px;
+        background-image: url('../resources/obtain-bg-mobile.png');
+        background-position: 20%;
+        background-position-y: 10%;
+    }
+    
+    .section-obtain__list{
+        gap: 50px;
+    }
+    
+    .section-obtain__item {
+        max-width: 309px;
+    }
+    
+    .section-obtain__title {
+        max-width: 308px;
+    }
+    
+    .section-obtain__desc {
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
