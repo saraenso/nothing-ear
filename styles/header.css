@@ -76,6 +76,11 @@ header {
 }
 
 @media (max-width: 767px) {
+    header {
+        padding-top: 26.3px;
+        padding-bottom: 86.3px;
+    }
+
     .nav {
         display: none;
     }
